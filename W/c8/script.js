@@ -43,7 +43,7 @@ function str() {
 }
 
 // 6. write a program to print the first character from your name .
-function name() {
+function _name() {
   let a = "R";
   window.alert(a);
 }
