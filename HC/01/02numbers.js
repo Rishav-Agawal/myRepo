@@ -37,3 +37,11 @@ let billon = 1_000_000_000 */
 // let maximum = console.log(Math.max(2, 3, 7, 4, 8));
 
 // let rand = console.log(Math.random());
+
+// ES6 NEW METHODS
+
+// console.log(Math.cbrt(27));
+
+// console.log(Math.hypot(3, 4));
+
+console.log(Math.clz32(0xf));
