@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Bahianita&family=Oleo+Script+Swash+Caps:wght@700&family=Roboto+Mono&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bahianita&family=Oleo+Script+Swash+Caps:wght@700&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+.navbar-container {
+  margin: 50px;
+}
+
+.logo {
+  width: 120px;
+}
+
+.list-item {
+  display: inline-block;
+  padding: 20px;
+  font-family: Bahianita;
+}
+
+.list {
+  position: absolute;
+  top: 5%;
+  left: 30%;
+}
+
+li:hover {
+  font-size: 50px;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.search-icon {
+  position: absolute;
+  right: 20%;
+  top: 10%;
+  width: 10px;
+  height: 10px;
+}
+
+.nav-button {
+  position: absolute;
+  right: 5%;
+  top: 9%;
+  padding: 10px;
+  width: 150px;
+  border: 2px #000000 solid;
+  border-radius: 10px;
+  background-color: #ffffff;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+.hero{
+  position: absolute;
+  top: 25%;
+  height: 450px;
+}
+
+.square{
+  position: absolute;
+  top:45%;
+  left: 40px;
+}
+
+.globe{
+  position: absolute;
+  left: 45%;
+}
+
+.hero-heading{
+  font-family: Bahianita;
+  position: absolute;
+  left: 40%;
+  top: 25%;
+  font-size: 100px;
+}
+
+.hero-description{
+  position: absolute;
+  left: 40%;
+  top:60%;
+  text-align: center;
+}
+
+.star{
+  position: absolute;
+  right: 10%;
+  top:25%;
+}
+
+.star-two{
+  position: absolute;
+  left: 40%;
+  bottom:-3%;
+}
+
+.button-email{
+  position: absolute;
+  bottom: 15%;
+  left: 50%;
+  padding: 5px;
+ background-color: #ffffff;
+ font-family: Roboto Mono;
+ font-size: 20px;
+ border-radius: 10px; 
+ 
+}
+
+.button-join{
+position: absolute;
+bottom: 15%;
+left: 64%;
+padding: 5px;
+ background-color: #000000;
+ font-family: Roboto Mono;
+ font-size: 20px;
+ border-radius: 10px;
+ color: #ffffff; 
+}
+
+.contact-heading{
+  position: absolute;
+  left: 58%;
+  bottom: -5%;
+  font-size: 20px;
+  font-family: Roboto Mono;
+}
+
+.icons{
+  position: absolute;
+  bottom: -13%;
+  right: 31%;
+}
